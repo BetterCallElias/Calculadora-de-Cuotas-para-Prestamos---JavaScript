@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Calculador de Préstamos</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+        <div class="container">
+            <h1>Bienvenidos al calculador de préstamos</h1>
+            <div>
+                <div>Monto principal:</div>
+                <input type="number" id="monto">
+                <div>Tiempo en meses:</div>
+                <input type="number" id="tiempo">
+                <div>Tasa de interés anual (%):</div>
+                <input type="number" id="tasa">
+                <br>
+                <button id="calcularBtn">Calcular</button>
+            </div>
+            <div id="resultados">
+                <h2>Resultados:</h2>
+                <ul id="listaPrestamos"></ul>
+            </div>
+        </div>
+    <script src="main.js"></script>
+</body>
+</html>
